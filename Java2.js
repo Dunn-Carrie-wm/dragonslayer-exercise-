@@ -32,3 +32,18 @@ while (slaying) {
 if(totalDamage >= 30)
 {prompt("You won the game! yeah");}
 else{prompt("You lost this round try again.")}
+// switch statement
+var typeOfDragon = prompt("What kind of dragon do you want to fight?");
+switch (typeOfDragon) {
+    case 'Dragon that breathe fire' :
+        console.log("Dude how are you going to beat that?");
+        break;
+    case 'Dragon that breaths ice' :
+        console.log("That must be cold");
+        break;
+    case 'Dragon that can fly':
+        console.log("I hope you can run");
+        break;
+        defalut:
+            dragon
+}
